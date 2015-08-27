@@ -1,0 +1,122 @@
+// Roboto font
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900,700italic,500italic,400italic,300italic,100italic,900italic&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Marck+Script&subset=latin,cyrillic);
+
+// Variables
+$gutter: 30px;
+
+$c-dark: #222222;
+$c-mid: #d1d1d1;
+$c-border: darken(#f9f9f9, 5%);
+$c-accent-hover: #4BB878;
+
+// imports
+@import "mobile";
+
+// CSS
+//////
+//////
+//////
+
+body {
+  padding-top: 50px; // fixes bootstrap nav overlapping stuff
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+  padding: $gutter * 3 0;
+}
+
+// Main
+.form-container {
+  width: 100%;
+  margin: auto;
+}
+
+.brand {
+  font-weight: 900;
+  // border-right: 1px solid lighten($c-mid, 5%);
+}
+
+.page-title {
+  margin-bottom: $gutter;
+}
+
+.app-header {
+  a {
+    color: lighten($c-dark, 15%) !important;  
+
+    &:hover {
+      color: $c-dark !important;
+    }
+  }
+}
+
+.dropdown-menu > li > a:hover {
+  color: #fff !important;
+}
+
+.app-main {
+  padding: $gutter * 2 0;
+}
+
+// Sidebar
+.sidebar {
+  li {
+    margin-bottom: $gutter / 6;
+  }
+
+  li > a {
+    border: 1px solid lighten($c-mid, 10%);
+  }
+}
+
+// Fav blocks
+.fav-block {
+  padding: $gutter;
+  border: 1px solid $c-mid + 30;
+  border-bottom-width: 3px; 
+	margin-bottom: $gutter / 4;
+	
+	h3 {
+		margin-top: 0;
+	}
+	
+	p {
+		margin-bottom: 0;
+	}
+}
+
+.fav-meta {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: $gutter / 2;
+}
+
+// Info blocks
+.info-block-title {
+  margin-top: 0;
+}
+
+// Footer
+.app-footer {
+  padding: $gutter 0;
+  border-top: 1px solid $c-mid;
+}
+
+// Elements
+.small-gliph {
+  font-size: 12px;
+}
+
+.text-light {
+  font-weight: 100;
+}
+
+.no-resize {
+  resize: none;
+}
+
+textarea {
+  height: 200px !important;
+}

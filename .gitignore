@@ -1,0 +1,6 @@
+/vendor
+/todos
+/node_modules
+Homestead.yaml
+.env
+readme.md

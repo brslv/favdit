@@ -1,0 +1,3 @@
+<nav>
+    {!! $favs->render() !!}
+</nav>

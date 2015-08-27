@@ -1,0 +1,19 @@
+@media only screen and (max-width: 768px)
+{
+
+  .container {
+    margin-left: $gutter;
+    margin-right: $gutter;
+  }
+
+  .form-container {
+    width: auto !important;
+    margin: auto;
+  }
+
+
+  .info-block {
+    margin-bottom: $gutter;
+  }
+
+}
